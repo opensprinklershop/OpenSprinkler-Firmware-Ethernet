@@ -6,6 +6,8 @@ LIBS = .\
   $(ESP_LIBS)/ESP8266mDNS \
   $(ESP_LIBS)/SSD1306 \
   $(ESP_LIBS)/rc-switch \
+  $(ESP_LIBS)/SPI \
+  $(ESP_LIBS)/UIPEthernet \
 
 ESP_ROOT = $(HOME)/esp8266_2.4/
 BUILD_ROOT = /tmp/$(MAIN_NAME)
